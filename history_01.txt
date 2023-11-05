@@ -1,0 +1,8 @@
+   0 mkdir -p /opt/test/YEVHENII
+   1 cd /opt/test/YEVHENII
+   2 touch file.txt
+   3 cd
+   4 cp /opt/test/YEVHENII/file.txt /tmp/file2.txt
+   5 rm /opt/test/YEVHENII/file.txt
+   6 ls /tmp
+   7 history > history_01.txt
