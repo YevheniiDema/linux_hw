@@ -1,0 +1,9 @@
+   0 mkdir -p /home/user/start
+   1 echo "Start" > 1.txt
+   2 date +'%D'>> /home/user/start/1.txt 
+   3 mkdir -p /opt/task/
+   4 cp /home/user/start/1.txt /opt/task/start.txt
+   5 ls -al / | tail -4 >> /opt/task/start.txt 
+   6 cat /opt/task/start.txt 
+   7 history
+   8 history > hw_02.txt
