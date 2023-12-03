@@ -1,0 +1,9 @@
+   0 touch myfirstbashscript.sh
+   1 chmod u+x myfirstbashscript.sh 
+   2 export USER=Yevhenii
+   3 nano myfirstbashscript.sh 
+   4 ./myfirstbashscript.sh 
+   6 history >> homework_27_11_23.txt
+   7 export_file  homework_27_11_23.txt
+   8 export_file myfirstbashscript.sh 
+  
